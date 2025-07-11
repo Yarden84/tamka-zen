@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Tamka Zen",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Focus on your reading by hiding related articles",
   "permissions": [
-    "activeTab",
-    "storage"
+    "activeTab"
   ],
+  "host_permissions": ["https://www.ynet.co.il/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
